@@ -1,6 +1,6 @@
 {
   "name": "maven-settings-action",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "description": "Prepare maven settings",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,6 @@
   },
   "devDependencies": {
     "eslint": "^9.34.0",
-    "jest": "^30.1.1"
+    "jest": "^30.1.2"
   }
 }
