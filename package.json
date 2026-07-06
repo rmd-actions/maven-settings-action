@@ -27,13 +27,13 @@
   },
   "homepage": "https://github.com/s4u/maven-settings-action#readme",
   "dependencies": {
-    "@actions/core": "^3.0.0",
-    "@xmldom/xmldom": "^0.9.9"
+    "@actions/core": "^3.0.1",
+    "@xmldom/xmldom": "^0.9.10"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.2.0",
-    "globals": "^17.5.0",
-    "jest": "^30.3.0"
+    "eslint": "^10.3.0",
+    "globals": "^17.6.0",
+    "jest": "^30.4.2"
   }
 }
