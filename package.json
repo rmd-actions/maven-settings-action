@@ -1,6 +1,6 @@
 {
   "name": "maven-settings-action",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Prepare maven settings",
   "main": "index.js",
   "type": "module",
@@ -32,8 +32,13 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.3.0",
-    "globals": "^17.6.0",
-    "jest": "^30.4.2"
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "jest": "^30.5.2"
+  },
+  "overrides": {
+    "@istanbuljs/load-nyc-config": {
+      "js-yaml": "^4.1.0"
+    }
   }
 }
